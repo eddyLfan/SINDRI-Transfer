@@ -1,0 +1,25 @@
+{
+  "architecture": "Transfer",
+  "block_indices": [
+    5,
+    11,
+    17,
+    23
+  ],
+  "hidden_dim": 3072,
+  "adapter_dim": 1024,
+  "num_heads": 16,
+  "ffn_dim": 4096,
+  "time_dim": 128,
+  "condition_scope": "per_view",
+  "lora_rank": 32,
+  "lora_alpha": 32.0,
+  "lora_dropout": 0.0,
+  "lora_targets": [
+    "q",
+    "k",
+    "v",
+    "o"
+  ],
+  "time_modulation": "sinusoidal_mlp_1_plus_tanh_gates"
+}

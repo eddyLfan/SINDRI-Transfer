@@ -1,0 +1,16 @@
+# Core versions from the inference environment. Install CUDA PyTorch first.
+# Also install third_party/VideoX-Fun/requirements.txt at the pinned revision.
+torch==2.7.1
+torchvision==0.22.1
+diffusers==0.35.2
+transformers==4.51.3
+accelerate==1.14.0
+numpy==1.26.4
+av==15.1.0
+opencv-python==4.11.0.86
+Pillow==11.2.1
+omegaconf==2.3.0
+safetensors==0.5.3
+einops==0.8.1
+sentencepiece==0.2.0
+ftfy==6.3.1

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+models/
+third_party/
+outputs/
+checkpoints/*.pt
+# Keep the bundled inference example even inside a research repository.
+!examples/input/*.mp4
+!examples/output/*.mp4
+!examples/comparison.mp4

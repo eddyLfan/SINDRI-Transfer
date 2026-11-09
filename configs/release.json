@@ -1,0 +1,7 @@
+{
+  "model": "Transfer",
+  "step": 20000,
+  "checkpoint": "Transfer.pt",
+  "sha256": "5ec2cd7b7ac83e660c41a30db1a6f987584f0164b12801ea77a21953dd540a18",
+  "bytes": 401287431
+}

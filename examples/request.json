@@ -1,0 +1,17 @@
+{
+  "schema": "transfer_request_v1",
+  "prompt": "A gray table surface holds a brown woven basket containing a potato and carrot on the left, next to a black rectangular tray on the right. A blue plate is suspended in the air above the tray area. A dual-arm robot with black arms grasps a green chili pepper with the left gripper and holds the rim of the blue plate with the right gripper. It lowers the plate onto the black tray while positioning the pepper above the center. The left arm releases the pepper into the plate and retracts upward. The right arm then lifts the plate slightly, moves it horizontally to align over the tray, and lowers it down to rest securely on the surface before releasing the grip and withdrawing.",
+  "depth_representation": "relative_disparity_u8_white_near",
+  "num_frames": 240,
+  "start_s": 0,
+  "depth_videos": {
+    "head": "input/head_depth.mp4",
+    "left_wrist": "input/left_wrist_depth.mp4",
+    "right_wrist": "input/right_wrist_depth.mp4"
+  },
+  "reference_images": {
+    "head": "input/head_reference.png",
+    "left_wrist": "input/left_wrist_reference.png",
+    "right_wrist": "input/right_wrist_reference.png"
+  }
+}
